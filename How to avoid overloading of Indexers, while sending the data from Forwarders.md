@@ -58,3 +58,7 @@ In the following example, the target group consists of three receivers. one with
 [tcpout:My_LB_Indexers]
 server=192.168.1.15:9997,192.168.1.179:9997,server1.mktg.example.com:9997
 autoLBFrequency=180
+
+###How to check if Load Balancing Configuration is working
+
+index="_internal" host="LAPTOP-OPDF715T" AutoLoadBalancedConnectionStrategy use this query in indexer
